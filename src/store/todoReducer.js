@@ -1,6 +1,6 @@
 import React from 'react';
 
-function todoReducer(state, action) {
+export function todoReducer(state, action) {
   switch (action.type) {
     case 'add':
       return {
